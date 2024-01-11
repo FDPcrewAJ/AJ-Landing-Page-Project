@@ -1,0 +1,16 @@
+:root {
+    --bg:#ffffff;
+    --text:#1e1e1e;
+    --alt-bg:#f1f1f1;
+    --red:#f21b2d;
+    --blue:#195973;
+}
+
+body {
+    font-family: 'Noto Sans Display', sans-serif;
+}
+
+h1,h2,h3 {
+    font-family: 'Sarala', sans-serif;
+}
+
