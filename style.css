@@ -8,9 +8,63 @@
 
 body {
     font-family: 'Noto Sans Display', sans-serif;
+    background-color: var(--bg);
+    color: var(--text);
+    padding: 0px;
+    margin: 0px;
 }
 
 h1,h2,h3 {
     font-family: 'Sarala', sans-serif;
+    color: var(--text);
 }
 
+/* Header Styles */
+header {
+    background-color: var(--blue);
+    margin: 0px;
+    padding: 1em;
+    height: 40vh;
+}
+
+/* Image Styles */
+.img-section, .img-section h2, .img-section a, header h1 {
+    color: var(--bg);
+}
+
+/* Other Styles */
+.button {
+    background-color: var(--bg);
+    padding: 0.4em;
+}
+
+a, a:hover, a:visited {
+    color: var(--text);
+    text-decoration: none;
+}
+
+/* Styles for Centered Items */
+
+#centered-boxes {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 5vw;
+    padding: 1em;
+}
+
+.cent-box {
+    width: 20em;
+    text-align: center;
+}
+
+.centered {
+    text-align: center;
+    width: 30em;
+    margin: 0 auto;
+    padding: 1em;
+}
+
+div:has(.centered) {
+    background-color: var(--alt-bg);
+    padding: 1rem;
+}
