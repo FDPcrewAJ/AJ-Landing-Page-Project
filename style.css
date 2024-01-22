@@ -19,6 +19,10 @@ h1,h2,h3 {
     color: var(--text);
 }
 
+h1 {
+    text-align: center;
+}
+
 /* Header Styles */
 header {
     background-color: var(--blue);
@@ -53,13 +57,13 @@ a, a:hover, a:visited {
 }
 
 .cent-box {
-    width: 20em;
+    max-width: 20em;
     text-align: center;
 }
 
 .centered {
     text-align: center;
-    width: 30em;
+    max-width: 30em;
     margin: 0 auto;
     padding: 1em;
 }
@@ -67,4 +71,32 @@ a, a:hover, a:visited {
 div:has(.centered) {
     background-color: var(--alt-bg);
     padding: 1rem;
+}
+
+/* Two aligned images styles */
+
+.split-img {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr 3fr 1fr;
+}
+
+.img-half {
+    background-color: var(--blue);
+    height: 60rem;
+}
+
+.text-half {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    max-width: 40rem;
+}
+
+.text-half-small {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    max-width: 30rem;
 }
