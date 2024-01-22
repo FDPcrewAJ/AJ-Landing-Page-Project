@@ -121,6 +121,11 @@ div:has(.centered) {
     max-width: 30rem;
 }
 
+.split-dark {
+    background-color: var(--alt-bg);
+    padding-top: 3rem;
+}
+
 /* Styles for specs section */
 .specs {
     display: flex;
@@ -153,5 +158,5 @@ div:has(.centered) {
 }
 
 .info {
-    padding-bottom: 3rem;
+    padding-bottom: 5rem;
 }
