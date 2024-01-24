@@ -24,6 +24,7 @@ h1 {
 }
 
 /* Header Styles */
+
 header {
     background-color: var(--blue);
     margin: 0px;
@@ -40,23 +41,28 @@ header {
 }
 
 /* Banner imitating the header styles */
+
 .banner {
     background-color: var(--blue);
     margin: 0px;
-    padding: 1em;
-    min-height: 30vh;
+    padding-left: 10em;
+    padding-top: 5rem;
+    height: 40vh;
 }
 
 .banner h2 {
     color: var(--bg);
+    font-size: 2rem;
 }
 
 /* Image Styles */
+
 .img-section, .img-section h2, .img-section a, header h1 {
     color: var(--bg);
 }
 
 /* Links Styles */
+
 .button {
     background-color: var(--bg);
     padding: 0.4em;
@@ -65,6 +71,10 @@ header {
 a, a:hover, a:visited {
     color: var(--text);
     text-decoration: none;
+}
+
+a:hover {
+    color: var(--blue);
 }
 
 /* Styles for Centered Items */
@@ -110,14 +120,18 @@ div:has(.centered) {
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    max-width: 40rem;
 }
 
 .text-half-small {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     text-align: center;
+    height: 100%;
+}
+
+.text-half-small p {
     max-width: 30rem;
 }
 
@@ -127,6 +141,7 @@ div:has(.centered) {
 }
 
 /* Styles for specs section */
+
 .specs {
     display: flex;
     justify-content: center;
@@ -159,4 +174,20 @@ div:has(.centered) {
 
 .info {
     padding-bottom: 5rem;
+}
+
+/* Footer Stles */
+
+footer {
+    background-color: var(--blue);
+    margin: 0px;
+    padding-left: 14em;
+    padding-top: 8rem;
+    height: 50vh;
+}
+
+footer p {
+    color: var(--bg);
+    max-width: 30%;
+    padding-bottom: 2rem;
 }
