@@ -115,7 +115,7 @@ div:has(.centered) {
     height: 60rem;
 }
 
-.text-half {
+.text-half .text-half-small {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -123,11 +123,7 @@ div:has(.centered) {
 }
 
 .text-half-small {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
-    text-align: center;
     height: 100%;
 }
 
