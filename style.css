@@ -46,10 +46,11 @@ header {
 /* Banner imitating the header styles */
 
 .banner {
-    background-image: url(Images/MM\ Logo.jpg);
-    background-position: center;
+    background-color: var(--text);
+    background-image: url(Images/Sense\ Logo.png);
+    background-position: center top;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: fit;
     margin: 0px;
     padding-left: 10em;
     padding-top: 5rem;
@@ -227,15 +228,19 @@ div:has(.centered) {
 /* Footer Stles */
 
 footer {
-    background-color: var(--blue);
+    background-color: var(--text);
+    background-image: url(Images/TL\ Logo.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
     margin: 0px;
-    padding-left: 14em;
+    padding-left: 10em;
     padding-top: 8rem;
     height: 50vh;
 }
 
 footer p {
     color: var(--bg);
-    max-width: 30%;
+    max-width: 15%;
     padding-bottom: 2rem;
 }
