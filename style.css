@@ -50,7 +50,6 @@ header {
     background-image: url(Images/Sense\ Logo.png);
     background-position: center top;
     background-repeat: no-repeat;
-    background-size: fit;
     margin: 0px;
     padding-left: 10em;
     padding-top: 5rem;
@@ -135,7 +134,7 @@ a:hover {
     padding: 1em;
 }
 
-.cent-box {
+.trio-box {
     max-width: 20em;
     text-align: center;
 }
@@ -147,7 +146,7 @@ a:hover {
     padding: 1em;
 }
 
-div:has(.centered) {
+#centered-container {
     background-color: var(--alt-bg);
     padding: 1rem;
 }
