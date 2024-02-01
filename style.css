@@ -243,3 +243,8 @@ footer p {
     max-width: 15%;
     padding-bottom: 2rem;
 }
+
+#credit-link {
+    color: var(--bg);
+    text-decoration: underline;
+}
